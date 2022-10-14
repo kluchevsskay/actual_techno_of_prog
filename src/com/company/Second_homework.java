@@ -2,7 +2,7 @@ package com.company;
 import java.util.Arrays;
 import java.util.stream.IntStream;
 
-public class second_homework {
+public class Second_homework {
     public static void main(String[] args) {
         int n = 10;
         int [] list_1 = new int[n];
@@ -34,11 +34,6 @@ public class second_homework {
             }
         }
 
-//        for (int i = 0; i < 10; i++){
-//            if (list_2[i]==0){
-//                list_2.remove(Integer.valueOf(list_2[i]));
-//            }
-//        }
         System.out.print("совпадающие числа: ");
         for (int i = 0; i < 5; i++) {
             if (res[i] != 0){
